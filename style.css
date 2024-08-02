@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Library{
+    background-color: rgb(255, 255, 255);
+}
+    /* header section start */
+#header{
+    width: 100%;
+    padding: 8px 25px;
+    background-color: rgb(246, 80, 80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    position: fixed;
+    z-index: 1;
+}
+#header .logo .img-logo{
+    height: 60px;
+    cursor: pointer;
+}
+#header .nav{
+    display: flex;
+    align-items: center;
+}
+#header .nav ul{
+    display: flex;
+    margin-right: 15px;
+}
+#header .nav ul li{
+    list-style-type: none;
+}
+#header .nav ul li a:hover{
+    background-color: rgb(248, 90, 90);
+    color: rgb(254, 212, 206);
+    transition: all ease-in 0.3s;
+}
+#header .nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 30.5px 15px;
+    font-size: 15px;
+}
+#header .nav .btn-buy{
+    height: 40px;
+    width: 110px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ff92929a ;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    backdrop-filter: blur(15px);
+}
+#header .nav .btn-buy:hover{
+    border: 1px solid white;
+    background-color: rgb(246, 80, 80);
+    transition: all ease-in-out 0.5s;
+}
+    /* header section end */
+/* home section start  */
+.home{
+    height: 600px;
+    position: relative;
+    top:30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home .home-bg{
+    height: 450px;
+}
+.home .quotes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 71, 71);
+}
+.home .quotes h3{
+    color: #3534346a;
+    margin-top: 10px;
+}
+/* home section end  */
+
+    /* book section start  */
+.book-heading{
+    text-transform: uppercase;
+    border-bottom: 2px solid salmon;
+    width: 400px;
+    font-size: 26px;
+}    
+.book{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+.book .book-text{
+    max-width: 500px;
+    line-height: 25px;
+}
+.book .book-text .btn-buy-now{
+    height: 40px;
+    width: 110px;
+    font-size: 15px;
+    background-color: white;
+    color: #353434;
+    border: 2px solid rgb(246, 80, 80);
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.book .book-text .read{
+    margin-right: 30px;
+}
+.book .book-text .btn-buy-now:hover{
+    background-color: rgb(246, 80, 80);
+    border: none;
+    color: white;
+    transition: all ease 0.9s;
+}
+.book .book-img .book-inner-img{
+    height: 350px;
+    width: 350px;
+}
+.second-book{
+    margin-top: 30px;
+}
+    /* book section end  */
+
+/* learning section start */
+.learning{
+    height: 600px;
+    margin-top: 100px;
+}
+.learning-heading{
+    text-transform: uppercase;
+    border-bottom: 2px solid salmon;
+    width: 250px;
+    margin-top: 50px;
+    font-size: 26px;
+}   
+.lerning-content{
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.first-content{
+    width: 260px;
+    height: 380px;
+    background-color: rgb(250, 227, 215);
+    border-left: 10px solid rgb(255, 102, 102);
+    border-top-left-radius: 200px;
+    border-right: 10px solid rgb(255, 102, 102);
+    border-top-right-radius: 200px;
+    border-top: 2px solid rgb(255, 102, 102);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0 20px;
+    border-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.first-content:hover{
+    transform: scale(1.05);
+    transition: all ease-in-out 0.7s;
+}
+.first-content .first-img{
+    height: 100px;
+    margin-top: 30px;
+}
+/* learning section end */
