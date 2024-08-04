@@ -72,16 +72,24 @@
     align-items: center;
 }
 .home .home-bg{
-    height: 450px;
+    height: 500px;
+
 }
 .home .quotes{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    color: rgb(255, 71, 71);
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+    margin-top: 20px;
+    padding: 15px ;
+    border-left: 5px solid #fc2626;
+    border-right: 5px solid #fc2626;
 }
-.home .quotes h3{
+.home .quotes h4{
     color: #3534346a;
-    margin-top: 10px;
+    margin-top: 2px;
+    font-family:  'Lucida Sans';
+    margin-bottom: 13px;
 }
 /* home section end  */
 
@@ -113,6 +121,7 @@
     font-weight: bold;
     border-radius: 40px;
     cursor: pointer;
+
 }
 .book .book-text .read{
     margin-right: 30px;
@@ -121,11 +130,17 @@
     background-color: rgb(246, 80, 80);
     border: none;
     color: white;
-    transition: all ease 0.9s;
+    transition: all ease-in-out 0.4s;
+    /* transition: all ease 0.9s; */
 }
 .book .book-img .book-inner-img{
     height: 350px;
     width: 350px;
+    transition: transform ease-out 0.7s;
+}
+.book .book-img .book-inner-img:hover{
+    transform: scale(1.1);
+
 }
 .second-book{
     margin-top: 30px;
@@ -134,7 +149,7 @@
 
 /* learning section start */
 .learning{
-    height: 600px;
+    height: 550px;
     margin-top: 100px;
 }
 .learning-heading{
@@ -156,7 +171,7 @@
 }
 .first-content{
     width: 260px;
-    height: 380px;
+    height: 400px;
     background-color: rgb(250, 227, 215);
     border-left: 10px solid rgb(255, 102, 102);
     border-top-left-radius: 200px;
@@ -169,13 +184,102 @@
     border-bottom: 0;
     overflow: hidden;
     text-align: center;
+    transition: transform ease-in-out 1s;
 }
 .first-content:hover{
     transform: scale(1.05);
-    transition: all ease-in-out 0.7s;
+}
+.first-content p{
+    font-size: 15px;
 }
 .first-content .first-img{
     height: 100px;
     margin-top: 30px;
 }
 /* learning section end */
+    /* About us section start  */
+#about{
+    height: 700px;
+} 
+.about-heading{
+    text-transform: uppercase;
+    border-bottom: 2px solid salmon;
+    width: 250px;
+    margin-top: 50px;
+    font-size: 26px;
+}   
+.about-content{
+    position: relative;
+    top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-content p{
+    width: 500px;
+    position: absolute;
+    right: 160px;
+}
+.about-content .about-vedio{
+    position: absolute;
+    left: 160px;
+    height:250px;
+    width: 400px;
+}
+#about .map{
+    margin-top: 24%;
+    border:0;
+    margin-left: 160px;
+}
+    /* About us section end  */
+/* footer section start */
+footer{
+    height: 200px;
+    background-color: rgb(91, 80, 80);
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    position: relative;
+}
+footer ul{
+    margin-top: 30px;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li a{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-last{
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social-icons p{
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+footer .social{
+    display: flex;
+}
+footer .social .icon{
+    height: 40px;
+    margin-top: 10px;
+    padding: 5px;
+    transition: transform ease-out 0.3s;
+}
+footer .social .icon:hover{
+    transform: scale(1.1);
+}
+/* footer section end */
