@@ -292,7 +292,7 @@ footer .social .icon:hover{
     }
     .home .home-bg{
         height: 300px;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     .home .quotes{
         font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -314,7 +314,7 @@ footer .social .icon:hover{
     }
     .book .book-img .book-inner-img{
         height: 290px;
-        margin: 40px;
+        margin: 40px 0;
         transition: transform ease-out 0.7s;
     }
     .home .home-bg{
@@ -341,8 +341,11 @@ footer .social .icon:hover{
 
     }
     .about-content .about-vedio{
-        height: 200px;
+        height: 60%;
     }   
+    .about-content p{
+        max-width: 37%;
+    }
     #about .map{
         width: 90%;
         height: 400px;
