@@ -313,7 +313,8 @@ footer .social .icon:hover{
         height: 700px;
     }
     .book .book-img .book-inner-img{
-        height: 290px;
+        height: 260px;
+        width: 260px;
         margin: 40px 0;
         transition: transform ease-out 0.7s;
     }
@@ -344,7 +345,7 @@ footer .social .icon:hover{
         height: 60%;
     }   
     .about-content p{
-        max-width: 37%;
+        max-width: 350px;
     }
     #about .map{
         width: 90%;
