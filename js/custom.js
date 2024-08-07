@@ -3,8 +3,3 @@ $(document).ready(function(){
         $('.nav').toggle(300);
     });
 });
-$(document).ready(function(){
-    $('.nav').click(function(){
-        $('.nav').hide(300);
-    });
-});
