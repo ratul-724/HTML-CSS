@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.menu-icon').click(function(){
+        $('.nav').toggle(300);
+    });
+});
+$(document).ready(function(){
+    $('.nav').click(function(){
+        $('.nav').hide(300);
+    });
+});
